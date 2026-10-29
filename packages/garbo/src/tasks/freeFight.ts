@@ -282,7 +282,7 @@ const RAW_FIGHTS: Parameters<typeof freeFightTask>[0][] = [
         "Open Heart Surgery",
         "LOV Extraterrestrial Chocolate",
       ),
-    // TODO: Get drops
+    outfit: () => freeFightOutfit({}, $location`The Tunnel of L.O.V.E.`),
     combatCount: () => 3,
     tentacle: false,
   },
